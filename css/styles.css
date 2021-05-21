@@ -3,6 +3,7 @@
   --secondary-font: Raleway, sans-serif;
   --primary-color: #212121;
   --accent-color: #2196f3;
+  --addition-color: #757575;
 }
 .list {
   list-style: none;
@@ -76,7 +77,7 @@ body {
   color: var(--primary-color);
 }
 .contacts-link {
-  color: #757575;
+  color: var(--addition-color);
 }
 .contacts-link:hover,
 .contacts-link:focus,
@@ -181,7 +182,7 @@ body {
 .content-text {
   font-size: 14px;
   line-height: 1.7;
-  color: #757575;
+  color: var(--addition-color);
 }
 /*========END CONTENT========*/
 
@@ -308,7 +309,7 @@ body {
 .project-description {
   font-size: 16px;
   line-height: 1.88;
-  color: #757575;
+  color: var(--addition-color);
 }
 /*========END PROJECTS=======*/
 
