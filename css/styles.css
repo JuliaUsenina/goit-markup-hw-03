@@ -169,14 +169,16 @@ body {
 /*========END HERO===========*/
 
 /*========CONTENT===========*/
-
+.content {
+  margin-bottom: -94px;
+}
 .content-list {
   display: flex;
 }
 .content-link:not(:last-child) {
   margin-right: 30px;
 }
-.contacts-link {
+.content-link {
   width: 270px;
 }
 .content-item {
@@ -252,9 +254,8 @@ body {
 /*========PROJECTS==========*/
 
 .filter-options {
+  justify-content: center;
   display: flex;
-  align-items: center;
-  margin-left: 280px;
   margin-bottom: 50px;
   margin-top: -8px;
   margin-right: -8px;
@@ -297,9 +298,7 @@ body {
   margin-right: 30px;
 }
 .project-info {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 24px;
+  padding: 20px 24px;
   border-right-width: 1px;
   border-right-style: solid;
   border-right-color: #eee;
@@ -311,6 +310,7 @@ body {
   border-left-color: #eee;
 }
 .project-name {
+  padding-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -333,7 +333,7 @@ body {
 .footer-container {
   display: flex;
 }
-.address-list {
+.address-section {
   margin-top: 20px;
 }
 .address {
@@ -342,11 +342,13 @@ body {
   line-height: 1.7;
   color: #ffffff;
 }
+.address-item {
+  margin-top: 9px;
+}
 .address-contacts {
   font-style: normal;
   font-size: 14px;
   line-height: 1.7;
-  margin-top: 9px;
   color: rgba(255, 255, 255, 0.6);
 }
 .address-contacts:hover,
