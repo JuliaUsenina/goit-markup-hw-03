@@ -169,9 +169,7 @@ body {
 /*========END HERO===========*/
 
 /*========CONTENT===========*/
-.content {
-  margin-bottom: -94px;
-}
+
 .content-list {
   display: flex;
 }
@@ -197,7 +195,9 @@ body {
 /*========END CONTENT========*/
 
 /*=========ASIDE===========*/
-
+.aside {
+  margin-bottom: 94px;
+}
 .aside-list {
   display: flex;
   align-items: center;
@@ -310,7 +310,7 @@ body {
   border-left-color: #eee;
 }
 .project-name {
-  padding-bottom: 4px;
+  margin-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
